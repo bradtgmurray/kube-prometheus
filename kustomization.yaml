@@ -51,8 +51,7 @@ resources:
 - ./manifests/prometheus-adapter-clusterRoleServerResources.yaml
 - ./manifests/prometheus-adapter-configMap.yaml
 - ./manifests/prometheus-adapter-deployment.yaml
-# Disable; experimental
-# - ./manifests/prometheus-adapter-roleBindingAuthReader.yaml
+- ./manifests/prometheus-adapter-roleBindingAuthReader.yaml
 - ./manifests/prometheus-adapter-service.yaml
 - ./manifests/prometheus-adapter-serviceAccount.yaml
 - ./manifests/prometheus-adapter-serviceMonitor.yaml
